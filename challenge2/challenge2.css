@@ -1,0 +1,28 @@
+nav {
+  background-color: darkblue;
+  font-family: arial;
+  color: white;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  color: white;
+}
+
+a:hover {
+  background-color: lightblue;
+  color: darkblue;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 1.2em;
+}
