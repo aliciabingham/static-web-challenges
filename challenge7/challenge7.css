@@ -1,0 +1,160 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.rocketship {
+  background-color: darkblue;
+  width: 960px;
+  height: 700px;
+
+}
+
+
+#trapezoid {
+  border-bottom: 100px solid red;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 100px;
+}
+
+@keyframes star {
+  from {margin-top: 0;}
+  to {margin-top: 700;}
+}
+
+#star-six0 {
+  margin-left: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid white;
+  position: relative;
+  animation-name: star;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  display: inline-block;
+}
+
+#star-six0:after {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 30px solid white;
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -15px;
+}
+
+#star-six1 {
+  margin-left: 900px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid white;
+  position: relative;
+}
+
+#star-six1:after {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 30px solid white;
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -15px;
+}
+
+#star-six5 {
+  margin-left: 600px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid white;
+  position: relative;
+}
+
+#star-six5:after {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 30px solid white;
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -15px;
+}
+
+#star-six2 {
+  margin-left: 450px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid white;
+  position: relative;
+}
+
+#star-six2:after {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 30px solid white;
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -15px;
+}
+#star-six3 {
+  margin-left: 750px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid white;
+  position: relative;
+}
+
+#star-six3:after {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 30px solid white;
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -15px;
+}
+
+#star-six4 {
+  margin-left: 250px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid white;
+  position: relative;
+}
+
+#star-six4:after {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 30px solid white;
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -15px;
+}
